@@ -72,9 +72,6 @@ The system is divided into multiple microservices for modularity, scalability, a
 
 ---
 
-<h2 style="color:#00BFFF;">🚀 How to Run Locally</h2>
-
----
 
 <h2 style="color:#1E90FF; text-align:center;">👤 Author</h2>
 
@@ -86,6 +83,13 @@ Java Spring Boot Developer & Trainer<br>
 💻 <a href="https://github.com/akankshaThalner511" target="_blank">GitHub</a><br>
 📍 Ameerpet, Hyderabad, India
 </p>
+
+
+
+<h2 style="color:#00BFFF;">🚀 How to Run Locally</h2>
+
+---
+
 
 
 ```bash
