@@ -74,6 +74,20 @@ The system is divided into multiple microservices for modularity, scalability, a
 
 <h2 style="color:#00BFFF;">🚀 How to Run Locally</h2>
 
+---
+
+<h2 style="color:#1E90FF; text-align:center;">👤 Author</h2>
+
+<p style="text-align:center;">
+<b>Akanksha Thalner</b><br>
+Java Spring Boot Developer & Trainer<br>
+✉️ akankshathalner@gmail.com<br>
+🔗 <a href="https://www.linkedin.com/in/akankshathalner/" target="_blank">LinkedIn</a> | 
+💻 <a href="https://github.com/akankshaThalner511" target="_blank">GitHub</a><br>
+📍 Ameerpet, Hyderabad, India
+</p>
+
+
 ```bash
 # Step 1: Clone the repository
 git clone https://github.com/akankshaThalner511/Payment-Integration-System.git
@@ -94,3 +108,8 @@ mvn spring-boot:run
 # Step 5: Start Trustly Provider & Mock Service
 cd ../trustly-provider-service && mvn spring-boot:run
 cd ../trustly-mock-service && mvn spring-boot:run
+
+
+
+
+....
