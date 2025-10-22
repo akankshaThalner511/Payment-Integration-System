@@ -22,3 +22,26 @@ It handles <b>end-to-end payment flow</b> — from validation to processing and 
 The system is divided into multiple microservices for modularity, scalability, and maintainability:
 </p>
 
+📦 Payment-Integration-System/
+├── payment-validation-service/
+│ ├── HmacSHA256 security filter
+│ ├── Dynamic validation framework
+│ └── Custom Spring Security configuration
+│
+├── payment-processing-service/
+│ ├── Prepares and forwards payment requests
+│ ├── Handles deposit initiation
+│ └── Communicates with Trustly Provider
+│
+├── trustly-provider-service/
+│ ├── Handles RSA256 signing & verification
+│ ├── Communicates with Trustly Mock service
+│ └── Uses BouncyCastle for key management
+│
+├── trustly-mock-service/
+│ ├── Simulates Trustly API endpoints
+│ ├── Provides mock payment success/failure responses
+│ └── Used for testing integration flow
+│
+└── eureka-server/
+└── Service discovery and registration
