@@ -57,6 +57,10 @@ The system is divided into multiple microservices for modularity, scalability, a
 <p align="center">
   <img src="assets/payment-flow.png" alt="Payment Flow Diagram" width="650" style="border-radius:10px; box-shadow:0 0 10px #999;" />
 </p>
+<p align="center">
+  <img src="assets/payment-flow.png" alt="Payment Flow Diagram" width="650">
+</p>
+
 
 **Step-by-step Workflow:**
 1. The client sends a payment request → `Payment Validation Service`  
